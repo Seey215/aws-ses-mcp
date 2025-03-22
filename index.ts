@@ -22,9 +22,7 @@ if (Array.isArray(argv["reply-to"])) {
   replierEmailAddresses = argv["reply-to"];
 } else if (typeof argv["reply-to"] === "string") {
   replierEmailAddresses = [argv["reply-to"]];
-} else if (process.env.REPLY_TO_EMAIL_ADDRESSES) {
-  replierEmailAddresses = process.env.REPLY_TO_EMAIL_ADDRESSES.split(",");
-}
+} 
 
 if (!awsAccessKeyId || !awsSecretAccessKey) {
   console.error(
