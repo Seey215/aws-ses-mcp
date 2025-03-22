@@ -1,5 +1,6 @@
 # aws-ses-mcp 📧
 
+[![smithery badge](https://smithery.ai/badge/@omd01/aws-ses-mcp)](https://smithery.ai/server/@omd01/aws-ses-mcp)
 
 
 This is a simple MCP server that sends emails using AWS SES (Simple Email Service). Perfect for integrating with Cursor or Claude Desktop to compose and send emails directly without copy-pasting. The service supports both plain text and HTML emails with advanced features like CC, BCC, and reply-to functionality.
@@ -24,6 +25,15 @@ Before you begin, ensure you have:
 
 ## Installation 🚀
 
+### Installing via Smithery
+
+To install aws-ses-mcp for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@omd01/aws-ses-mcp):
+
+```bash
+npx -y @smithery/cli install @omd01/aws-ses-mcp --client claude
+```
+
+### Manual Installation
 1. Clone this repository:
 ```bash
 git clone https://github.com/omd01/aws-ses-mcp.git
